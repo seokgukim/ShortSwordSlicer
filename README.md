@@ -6,6 +6,14 @@
 MapleStory Wolrds .mod file packing/unpacking tools with visiblity.  
 시인성을 가진 메이플스토리 월드 .mod 파일 패킹/언패킹 도구
 
+## CAUTION
+
+Latest MapleStory Worlds uses `mlua`, for its scripting engine.
+This project managed to reverse the storage format for previous generation, it does not mean it can be used by now.
+
+최신 MapleStory Worlds는 자체 `mlua` 도구를 지원합니다.
+이 프로젝트는 그 이전의 저장 포맷 분석 및 재조립을 성공했지만, 현재 권장되지는 않습니다.
+
 ## Features
 - Unpack .mod file to distinct .lua and .json files.  
 - .mod 파일을 각각의 고유한 .lua 파일들과 .json 파일들로 언패킹합니다.
